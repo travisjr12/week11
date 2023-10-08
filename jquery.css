@@ -1,0 +1,24 @@
+
+/*these are the styles of the cells in the tic tac toe it gives it standard lengths
+to what the game container looks like */
+.cell{
+  width: 75px;
+  height: 90px;
+  border: 10px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 60px;
+  cursor: crosshair;
+}
+/*text fonts of the X's and O's*/
+#gameContainer{
+  font-family: "Open Sans", italic;
+  text-align: left;
+}
+/*gives definition to the grid layout and colums*/
+#cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 150px;
+  margin: left;
+}
